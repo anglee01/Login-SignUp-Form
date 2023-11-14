@@ -1,0 +1,236 @@
+@import url(
+"https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 30px;
+	background-color: rgb(231, 231, 231);
+}
+
+header {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+}
+.title {
+	font-weight: 400;
+	letter-spacing: 1.5px;
+}
+.container {
+	height: 600px;
+	width: 500px;
+	background-color: white;
+	box-shadow: 8px 8px 20px rgb(128, 128, 128);
+	position: relative;
+	overflow: hidden;
+}
+.google {
+	background-color: rgb(197, 205, 249);
+	font-weight: 300;
+	font-size: medium;
+	color: black;
+	height: 60px;
+	width: 200px;
+	margin: 20px auto;
+	box-shadow: 10px 10px 30px rgb(188, 237, 254);
+	border-radius: 30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.github {
+	background-color: rgb(197, 205, 249);
+	font-weight: 300;
+	font-size: medium;
+	color: black;
+	height: 60px;
+	width: 200px;
+	 margin: 20px auto; 
+	box-shadow: 10px 10px 30px rgb(188, 237, 254);
+	border-radius: 30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+    }
+    .clickbtn {
+        height: 60px;
+        width: 150px;
+        border-radius: 50px;
+        background-image: linear-gradient(to right,
+                rgb(131, 175, 230),
+                rgb(145, 198, 231));
+        font-size: 22px;
+        border: none;
+        /* cursor: pointer; */
+        align-items: center;
+        margin-left: 170px;
+        font-size: smaller;
+    }
+	.clickbtn1 {
+        height: 60px;
+        width: 150px;
+        border-radius: 50px;
+        background-image: linear-gradient(to right,
+                rgb(131, 175, 230),
+                rgb(145, 198, 231));
+        font-size: 22px;
+        border: none;
+        /* cursor: pointer; */
+        align-items: center;
+        margin-left: 170px;
+        font-size: smaller;
+		margin-top: 100px;
+    }
+    .forGotPassword {
+        height: 60px;
+        width: 150px;
+        border-radius: 50px;
+        background-image: linear-gradient(to right,
+                rgb(131, 175, 230),
+                rgb(145, 198, 231));
+        font-size: 22px;
+        border: none;
+        cursor: pointer;
+        align-items: center;
+        margin-left: 170px;
+        font-size: smaller;
+    }
+    #email {
+        height: 60px;
+        width: 400px;
+        outline: none;
+        border: none;
+        color: rgb(134, 24, 101);
+        background-color: rgb(240, 240, 240);
+        border-radius: 20px;
+        padding-left: 30px;
+        font-size: 18px;
+        margin-left: 8%;
+        margin-top: 6%;
+    }
+    #password {
+        height: 60px;
+        width: 400px;
+        outline: none;
+        border: none;
+        color: rgb(134, 24, 101);
+        background-color: rgb(240, 240, 240);
+        border-radius: 20px;
+        padding-left: 30px;
+        font-size: 18px;
+        margin-left: 8%;
+    }
+    .signUp{
+        margin-left: 170px;
+        margin-top: 60%;
+    }
+    .login{
+        margin-top: 50%;
+        margin-left: 120px;
+    }
+	.container1 {
+		height: 600px;
+		width: 500px;
+		background-color: white;
+		box-shadow: 8px 8px 20px rgb(128, 128, 128);
+		position: relative;
+		overflow: hidden;
+		padding-top: 100px;
+	}
+    
+@media screen and (max-width: 650px) {
+	.container {
+		height: 600px;
+		width: 300px;
+	}
+
+	.title {
+		font-size: 15px;
+	}
+	.container1 {
+		height: 600px;
+		width: 300px;
+	}
+
+	#email {
+		height: 50px;
+		width: 250px;
+		font-size: 15px;
+	}
+    #password {
+		height: 50px;
+		width: 250px;
+		font-size: 15px;
+	}
+
+	.clickbtn {
+		height: 50px;
+		width: 130px;
+		font-size: 19px;
+	}
+	
+	.clickbtn1 {
+		height: 50px;
+		width: 130px;
+		font-size: 19px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.container {
+		height: 600px;
+		width: 250px;
+	}
+	.container1 {
+		height: 600px;
+		width: 250px;
+	}
+
+	.heading {
+		font-size: 30px;
+	}
+
+	.title {
+		font-size: 10px;
+    }
+    
+	.clickbtn {
+		height: 50px;
+		width: 130px;
+		font-size: 19px;
+	}
+	
+	.clickbtn1 {
+		height: 50px;
+		width: 130px;
+		font-size: 19px;
+	}
+    #email {
+		height: 50px;
+		width: 220px;
+		font-size: 15px;
+	}
+    #password {
+		height: 50px;
+		width: 220px;
+		font-size: 15px;
+	}
+
+}

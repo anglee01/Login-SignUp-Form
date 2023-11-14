@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js";></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"; ></script>
+  </head>
+  <body>
+    <h1 class="title">Login Portal</h1>
+    <div class="container">
+    <form>
+    <input type="text" id="email" placeholder="Enter email" />
+    <br />
+    <br />
+    <input type="password" id="password" placeholder="Enter password" />
+    </form>
+    <br />
+    <br />
+    <button class="clickbtn" onclick="login()">Login</button>
+    <br />
+    <br />
+    <button class="forGotPassword" onclick="forgotPassword()">Forgot Password</button>
+    <br />
+    <button class="google " onclick="loginWithGoogle()">Login With Google<i class="fa-brands fa-google"></i></button>
+    <button class="github" onclick="loginWithGithub()">Login With Github<i class="fa-brands fa-github"></i></button>
+    <br />
+    <a class="signUp" href="./signUp.html">Create account..</a>
+</div>
+    
+    <script src="app.js"></script>
+  </body>
+</html>
